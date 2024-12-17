@@ -58,7 +58,7 @@ app.layout = dbc.Container([
             ]),
         ], width=2),
 
-        #* Titel
+        #* Titel Banner
         dbc.Col([
             dbc.Card([
                 dbc.CardBody([
@@ -84,10 +84,11 @@ app.layout = dbc.Container([
     
             ],color="#0077B5", className='mb-2'),
         ], width=8),
+        #*
 
 
         dbc.Col([
-            #* Sidebar
+            #>> Sidebar
             dbc.Card([
                 dbc.CardHeader(html.H5("List of Graphs", className='font-weight-bold'),
                                style={'textAlign':'center',
@@ -113,7 +114,9 @@ app.layout = dbc.Container([
             ], color="white", style={'height':'90vh'}),
         ], width=2,style={'position': 'absolute', 'top': '10', 'right': '0', 'z-index': '1000'}),
     ],className='mb-2 mt-2'),
-    #**
+    #>>
+
+
     dbc.Row([
         dbc.Col([
             dbc.Card([
@@ -180,7 +183,6 @@ app.layout = dbc.Container([
         ], width=4),
     ],className='mb-2'),
     dbc.Row([
-        #* Fourth Row
         dbc.Col([
             dbc.Card([
                 dbc.CardBody([
@@ -316,7 +318,7 @@ def update_stacked(start_date, end_date):
         })
     return fig_stacked
 
-
+#>>
 
 # Bar Chart ************************************************************
 @app.callback(

@@ -8,11 +8,11 @@ This project is part of the homework for Lecture 6 of the course "Python Program
 # Description
 In the lecture materials, a dashboard with LinkedIn data was presented. The project was built on top of an example numbered as **d**, and the tasks of the lecture were to modify and enhance the dashboard. The following modifications were made:
 
-1. A additional stacked line chart was added at the bottom of the page. The chart shows the amount of messsages send each month (across the different years) and on wich day of the week the messages were sent. To add an element about the time distribution of the messages sent was interesting for the project as none of the other visualizations covered this aspect.
+1. A additional **stacked area** chart was added at the bottom of the page. The chart shows the amount of messsages send each month (across the different years) and on wich day of the week the messages were sent. To add an element about the time distribution of the messages sent was interesting for the project as none of the other visualizations covered this aspect.
 
-2. An interactive sidebar with links to all of the visualizations included in the page was added at the right corner of the page.
+2. An interactive **sidebar** with links to all of the visualizations included in the page was added at the right corner of the page.
 
-3. On the original version, the date-pickers of the dashboard were visually uncomfortable beacuse they were located in the top-middle of the page. To enhance the styling of the page, a title banner with the LinkedIn colors was added instead and the date pickers were placed below.
+3. On the original version, the date-pickers of the dashboard were visually uncomfortable beacuse they were located in the top-middle of the page. To enhance the styling of the page, a **title banner** with the LinkedIn colors was added instead and the date pickers were placed below.
 
 # Deployment
 
