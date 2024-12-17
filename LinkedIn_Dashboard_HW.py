@@ -38,6 +38,9 @@ df_msg["DATE"] = pd.to_datetime(df_msg["DATE"])
 #* Bootstrap themes: https://hellodash.pythonanywhere.com/theme_explorer
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.LUX])
 
+#Allows Render to run the application correctly
+server = app.server
+
 app.layout = dbc.Container([
 
     #* Main Content
