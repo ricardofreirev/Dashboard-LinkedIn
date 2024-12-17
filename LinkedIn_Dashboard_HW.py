@@ -21,18 +21,18 @@ options = dict(loop=True, autoplay=True, rendererSettings=dict(preserveAspectRat
 
 
 # Import App data from csv sheets **************************************
-df_cnt = pd.read_csv("Dashboard_LinkedIn/data/Connections.csv")
+df_cnt = pd.read_csv("Dashboard-LinkedIn/data/Connections.csv")
 df_cnt["Connected On"] = pd.to_datetime(df_cnt["Connected On"],format="%d-%b-%y")
 df_cnt["month"] = df_cnt["Connected On"].dt.month
 df_cnt['month'] = df_cnt['month'].apply(lambda x: calendar.month_abbr[x])
 
-df_invite = pd.read_csv("Dashboard_LinkedIn/data/Invitations.csv")
+df_invite = pd.read_csv("Dashboard-LinkedIn/data/Invitations.csv")
 df_invite["Sent At"] = pd.to_datetime(df_invite["Sent At"],format="%m/%d/%y, %I:%M %p")
 
-df_react = pd.read_csv("Dashboard_LinkedIn/data/Reactions.csv")
+df_react = pd.read_csv("Dashboard-LinkedIn/data/Reactions.csv")
 df_react["Date"] = pd.to_datetime(df_react["Date"], format="%m/%d/%Y %H:%M")
 
-df_msg = pd.read_csv("Dashboard_LinkedIn/data/messages.csv")
+df_msg = pd.read_csv("Dashboard-LinkedIn/data/messages.csv")
 df_msg["DATE"] = pd.to_datetime(df_msg["DATE"])
 
 #* Bootstrap themes: https://hellodash.pythonanywhere.com/theme_explorer
