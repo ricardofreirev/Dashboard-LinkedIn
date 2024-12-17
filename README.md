@@ -20,6 +20,7 @@ To deploy the application, Render was chosen. The reason for this choice is that
 
 # Getting started 
 
-To view the dashboard online, simply visit the following Render link: **<link>**
+To view the dashboard online, simply visit the following **Render link**: 
+https://python-programming-for-business.onrender.com/
 
 The dashboard will be live, and you can interact with all the visualizations directly in your web browser without any additional setup.
